@@ -1,0 +1,447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditFlagForm корректно отрабатывает сценарии Не сохраняет форму, если не задано имя 1`] = `
+<div>
+  <form
+    class="root"
+  >
+    <div
+      class="title"
+    >
+      Feature Flag
+    </div>
+    <div
+      class="input shortInput inputGroup"
+    >
+      <div
+        class="root"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <input
+            class="input withFloatingLabel"
+            type="text"
+            value=""
+          />
+          <span
+            class="label floating"
+          >
+            Спринт
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="inputGroup input"
+    >
+      <div
+        class="root"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="inputWrapper"
+          >
+            <input
+              class="input withFloatingLabel"
+              type="text"
+              value=""
+            />
+            <span
+              class="label floating"
+            >
+              Группа
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="input inputGroup"
+    >
+      <div
+        class="root"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <input
+            class="input withFloatingLabel"
+            type="text"
+            value=""
+          />
+          <span
+            class="label floating"
+          >
+            Задача
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="inputGroup input"
+    >
+      <div
+        class="root"
+      >
+        <div
+          class="inputWrapper required"
+        >
+          <input
+            class="input withFloatingLabel"
+            type="text"
+            value=""
+          />
+          <span
+            class="label floating"
+          >
+            Feature Flag
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="inputGroup"
+    >
+      <div
+        class="shortInput"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="inputWrapper"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="inputWrapper"
+              >
+                <input
+                  class="input withFloatingLabel"
+                  readonly=""
+                  type="text"
+                  value="Без типа"
+                />
+                <span
+                  class="label activeLabel floating"
+                >
+                  Тип
+                </span>
+              </div>
+            </div>
+            <div
+              class="arrow"
+            >
+              <div
+                class="root"
+              >
+                <svg
+                  fill="none"
+                  height="100%"
+                  viewBox="0 0 20 20"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10.0029 11.6053L5.71004 7.31242C5.31951 6.9219 4.68635 6.9219 4.29582 7.31242C3.9053 7.70295 3.9053 8.33611 4.29582 8.72664L9.29582 13.7266C9.68635 14.1172 10.3195 14.1172 10.71 13.7266L15.71 8.72664C16.1006 8.33611 16.1006 7.70295 15.71 7.31242C15.3195 6.9219 14.6863 6.9219 14.2958 7.31242L10.0029 11.6053Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    stroke="none"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="shortInput input"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="root"
+          >
+            <div
+              class="inputWrapper"
+            >
+              <input
+                class="input withFloatingLabel"
+                type="text"
+                value=""
+              />
+              <span
+                class="label floating"
+              >
+                Тэг
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="buttonsContainer"
+    >
+      <div
+        class="button"
+      >
+        <button
+          class="root xl cancel"
+          type="button"
+        >
+          <span
+            class="content"
+          >
+            Отмена
+          </span>
+        </button>
+      </div>
+      <div
+        class="button"
+      >
+        <button
+          class="root xl main disabled fullWidth"
+          disabled=""
+          type="submit"
+        >
+          <span
+            class="content"
+          >
+            Сохранить
+          </span>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`EditFlagForm корректно отрабатывает сценарии Рендер на мок данных 1`] = `
+<div>
+  <form
+    class="root"
+  >
+    <div
+      class="title"
+    >
+      Feature Flag
+    </div>
+    <div
+      class="input shortInput inputGroup"
+    >
+      <div
+        class="root"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <input
+            class="input withFloatingLabel"
+            type="text"
+            value=""
+          />
+          <span
+            class="label floating"
+          >
+            Спринт
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="inputGroup input"
+    >
+      <div
+        class="root"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="inputWrapper"
+          >
+            <input
+              class="input withFloatingLabel"
+              type="text"
+              value=""
+            />
+            <span
+              class="label floating"
+            >
+              Группа
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="input inputGroup"
+    >
+      <div
+        class="root"
+      >
+        <div
+          class="inputWrapper"
+        >
+          <input
+            class="input withFloatingLabel"
+            type="text"
+            value=""
+          />
+          <span
+            class="label floating"
+          >
+            Задача
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="inputGroup input"
+    >
+      <div
+        class="root"
+      >
+        <div
+          class="inputWrapper required"
+        >
+          <input
+            class="input withFloatingLabel"
+            type="text"
+            value=""
+          />
+          <span
+            class="label floating"
+          >
+            Feature Flag
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="inputGroup"
+    >
+      <div
+        class="shortInput"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="inputWrapper"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="inputWrapper"
+              >
+                <input
+                  class="input withFloatingLabel"
+                  readonly=""
+                  type="text"
+                  value="Без типа"
+                />
+                <span
+                  class="label activeLabel floating"
+                >
+                  Тип
+                </span>
+              </div>
+            </div>
+            <div
+              class="arrow"
+            >
+              <div
+                class="root"
+              >
+                <svg
+                  fill="none"
+                  height="100%"
+                  viewBox="0 0 20 20"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10.0029 11.6053L5.71004 7.31242C5.31951 6.9219 4.68635 6.9219 4.29582 7.31242C3.9053 7.70295 3.9053 8.33611 4.29582 8.72664L9.29582 13.7266C9.68635 14.1172 10.3195 14.1172 10.71 13.7266L15.71 8.72664C16.1006 8.33611 16.1006 7.70295 15.71 7.31242C15.3195 6.9219 14.6863 6.9219 14.2958 7.31242L10.0029 11.6053Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    stroke="none"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="shortInput input"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="root"
+          >
+            <div
+              class="inputWrapper"
+            >
+              <input
+                class="input withFloatingLabel"
+                type="text"
+                value=""
+              />
+              <span
+                class="label floating"
+              >
+                Тэг
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="buttonsContainer"
+    >
+      <div
+        class="button"
+      >
+        <button
+          class="root xl cancel"
+          type="button"
+        >
+          <span
+            class="content"
+          >
+            Отмена
+          </span>
+        </button>
+      </div>
+      <div
+        class="button"
+      >
+        <button
+          class="root xl main disabled fullWidth"
+          disabled=""
+          type="submit"
+        >
+          <span
+            class="content"
+          >
+            Сохранить
+          </span>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

@@ -1,0 +1,1 @@
+export const IS_EDIT_NOTIFICATIONS_ENABLED = true;

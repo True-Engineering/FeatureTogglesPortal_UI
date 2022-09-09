@@ -1,0 +1,3881 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InviteMembersToProject рендерится Рендер на мок данных 1`] = `
+<div>
+  <div
+    class="root"
+  >
+    <div
+      class="title"
+    >
+      <div
+        class="root"
+      >
+        <div
+          class="title"
+        >
+          Участники проекта
+        </div>
+        <div
+          class="titleRight"
+        >
+          <div
+            class="titleControls"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="trigger"
+              >
+                <button
+                  class="root s main"
+                  type="button"
+                >
+                  <span
+                    class="content"
+                  >
+                    <div
+                      class="icon"
+                    >
+                      <div
+                        class="root"
+                      >
+                        <svg
+                          fill="none"
+                          height="100%"
+                          viewBox="0 0 20 20"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            clip-rule="evenodd"
+                            d="M16 11h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H4c-.552 0-1-.448-1-1s.448-1 1-1h5V4c0-.552.448-1 1-1s1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1z"
+                            fill="currentColor"
+                            fill-rule="evenodd"
+                            stroke="none"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    Добавить
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="root"
+            >
+              <div>
+                <button
+                  class="root s cancel-light"
+                  type="button"
+                >
+                  <span
+                    class="content"
+                  >
+                    <div
+                      class="icon"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 20 20"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M8 5C8.55228 5 9 5.44772 9 6C9 6.51284 8.61396 6.93551 8 7H6C4.34315 7 3 8.34315 3 10C3 11.5977 4.24892 12.9037 6 13H8C8.55228 13 9 13.4477 9 14C9 14.5128 8.61396 14.9355 8 15H6C3.23858 15 1 12.7614 1 10C1 7.31125 3.12231 5.11818 6 5H8ZM12 5C11.4477 5 11 5.44772 11 6C11 6.51284 11.386 6.93551 12 7H14C15.6569 7 17 8.34315 17 10C17 11.5977 15.7511 12.9037 14 13H12C11.4477 13 11 13.4477 11 14C11 14.5128 11.386 14.9355 12 15H14C16.7614 15 19 12.7614 19 10C19 7.31125 16.8777 5.11818 14 5H12ZM7 9C6.44772 9 6 9.44772 6 10C6 10.5523 6.44772 11 7 11H13C13.5523 11 14 10.5523 14 10C14 9.44772 13.5523 9 13 9H7Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    Скопировать ссылку
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="root"
+    >
+      <div
+        class="segments"
+      >
+        <button
+          class="activeTab"
+        >
+          Участники проекта
+          <div
+            class="count"
+          >
+            12
+          </div>
+        </button>
+        <button
+          class="tab"
+        >
+          Ожидают подтверждения
+          <div
+            class="count"
+          >
+            5
+          </div>
+        </button>
+      </div>
+      <div
+        class="content"
+      >
+        <div
+          class="tab"
+        >
+          <div
+            class="table root"
+          >
+            <div
+              class="headRow rowScroll stickyHead"
+            >
+              <div
+                class="headCell boldHeadCell nameColumn nameCell"
+              >
+                Имя
+              </div>
+              <div
+                class="headCell boldHeadCell projectColumn"
+              >
+                Весь проект
+              </div>
+              <div
+                class="headCell boldHeadCell permissionColumn"
+              >
+                <span
+                  title="dev"
+                >
+                  dev
+                </span>
+              </div>
+              <div
+                class="headCell boldHeadCell permissionColumn"
+              >
+                <span
+                  title="qa"
+                >
+                  qa
+                </span>
+              </div>
+              <div
+                class="headCell boldHeadCell permissionColumn"
+              >
+                <span
+                  title="uat"
+                >
+                  uat
+                </span>
+              </div>
+              <div
+                class="headCell boldHeadCell permissionColumn"
+              >
+                <span
+                  title="prod"
+                >
+                  prod
+                </span>
+              </div>
+              <div
+                class="headCell actionsColumn"
+              >
+                <div
+                  class="actionButton iconButton"
+                />
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/67868768758.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Иванов Иван"
+                  >
+                    Иванов Иван
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Админ
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/678687683358.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Петров Василий"
+                  >
+                    Петров Василий
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Админ
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/67868768758.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Иванов Иван"
+                  >
+                    Иванов Иван
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Участник
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/678687683358.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Петров Василий"
+                  >
+                    Петров Василий
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Участник
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/67868768758.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Иванов Иван"
+                  >
+                    Иванов Иван
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Участник
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/678687683358.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Петров Василий"
+                  >
+                    Петров Василий
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Админ
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/67868768758.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Иванов Иван"
+                  >
+                    Иванов Иван
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Админ
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/678687683358.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Петров Василий"
+                  >
+                    Петров Василий
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Админ
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/67868768758.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Иванов Иван"
+                  >
+                    Иванов Иван
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Админ
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/678687683358.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Петров Василий"
+                  >
+                    Петров Василий
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Админ
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/67868768758.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Иванов Иван"
+                  >
+                    Иванов Иван
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Админ
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        disabled=""
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M9.99975 4.5C13.6093 4.5 16.9323 6.4095 18.8892 9.6085C19.0362 9.8485 19.0362 10.1515 18.8892 10.3915C16.9323 13.5905 13.6093 15.5 9.99975 15.5C6.39025 15.5 3.06725 13.5905 1.11025 10.3915C0.96325 10.1515 0.96325 9.8485 1.11025 9.6085C3.06725 6.4095 6.39025 4.5 9.99975 4.5ZM9.99975 14C7.06625 14 4.34775 12.513 2.64175 10C3.56625 8.6385 4.78825 7.582 6.17975 6.896C5.90675 7.457 5.74975 8.0845 5.74975 8.75C5.74975 11.097 7.65275 13 9.99975 13C12.3467 13 14.2498 11.097 14.2498 8.75C14.2498 8.0845 14.0928 7.457 13.8198 6.896C15.2113 7.582 16.4332 8.6385 17.3577 10C15.6517 12.513 12.9332 14 9.99975 14ZM8.49975 7.25C9.05175 7.25 9.49975 7.698 9.49975 8.25C9.49975 8.802 9.05175 9.25 8.49975 9.25C7.94775 9.25 7.49975 8.802 7.49975 8.25C7.49975 7.698 7.94775 7.25 8.49975 7.25Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row rowScroll"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/678687683358.jpg?d=identicon"
+                />
+                <div
+                  class="userInfo"
+                >
+                  <div
+                    class="userName"
+                    title="Петров Василий"
+                  >
+                    Петров Василий
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell projectColumn rightDivider"
+              >
+                <div
+                  class="permissionSelect"
+                >
+                  <div
+                    class="root"
+                  >
+                    <div
+                      class="trigger"
+                    >
+                      <div
+                        class="trigger"
+                      >
+                        <div
+                          class="value"
+                        >
+                          Участник
+                        </div>
+                        <div
+                          class="arrow"
+                        >
+                          <div
+                            class="root"
+                          >
+                            <svg
+                              fill="none"
+                              height="100%"
+                              viewBox="0 0 16 16"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                clip-rule="evenodd"
+                                d="M8.24512 8.84751L11.038 6.05461C11.4285 5.66409 12.0617 5.66409 12.4522 6.05461C12.8427 6.44514 12.8427 7.0783 12.4522 7.46883L8.95222 10.9688C8.5617 11.3593 7.92853 11.3593 7.53801 10.9688L4.03801 7.46883C3.64749 7.0783 3.64749 6.44514 4.03801 6.05461C4.42853 5.66409 5.0617 5.66409 5.45222 6.05461L8.24512 8.84751Z"
+                                fill="currentColor"
+                                fill-rule="evenodd"
+                                stroke="none"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root cancel"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M10 2C12.21 2 14 3.79 14 6V8H15C16.105 8 17 8.895 17 10V16C17 17.105 16.105 18 15 18H5C3.895 18 3 17.105 3 16V10C3 8.895 3.895 8 5 8H6V6C6 3.79 7.79 2 10 2ZM10 11C8.895 11 8 11.895 8 13C8 14.105 8.895 15 10 15C11.105 15 12 14.105 12 13C12 11.895 11.105 11 10 11ZM8 6C8 4.895 8.895 4 10 4C11.105 4 12 4.895 12 6V8H8V6Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell permissionColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div>
+                      <button
+                        class="root main"
+                        data-testid="dropdown-env-role"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16.801105,6.75351213 C17.0662983,6.48786718 17.0662983,6.04512559 16.801105,5.79310345 L15.2099448,4.19923372 C14.958351,3.93358876 14.5163621,3.93358876 14.2511687,4.19923372 L13,5.44572158 L15.5499363,8 L16.801105,6.75351213 Z M5,13.4696356 L5,16 L7.53207292,16 L15,8.53036437 L12.4679271,6 L5,13.4696356 Z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="trigger"
+                  >
+                    <div
+                      class="actionButton iconButton"
+                    >
+                      <button
+                        class="root cancel-light"
+                        data-testid="button-remove"
+                        type="button"
+                      >
+                        <div
+                          class="root"
+                        >
+                          <svg
+                            fill="none"
+                            height="100%"
+                            viewBox="0 0 20 20"
+                            width="100%"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M16 6v10c0 1.105-.895 2-2 2H6c-1.105 0-2-.895-2-2V6h12zM8 8c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm4 0c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1s1-.448 1-1V9c0-.552-.448-1-1-1zm0-6l1 1h3c.552 0 1 .448 1 1s-.448 1-1 1H4c-.552 0-1-.448-1-1s.448-1 1-1h3l1-1h4z"
+                              fill="currentColor"
+                              fill-rule="evenodd"
+                              stroke="none"
+                            />
+                          </svg>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InviteMembersToProject рендерится Рендер на мок данных, вкладка с ожидающими подтверждение 1`] = `
+<div>
+  <div
+    class="root"
+  >
+    <div
+      class="title"
+    >
+      <div
+        class="root"
+      >
+        <div
+          class="title"
+        >
+          Участники проекта
+        </div>
+        <div
+          class="titleRight"
+        >
+          <div
+            class="titleControls"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="trigger"
+              >
+                <button
+                  class="root s main"
+                  type="button"
+                >
+                  <span
+                    class="content"
+                  >
+                    <div
+                      class="icon"
+                    >
+                      <div
+                        class="root"
+                      >
+                        <svg
+                          fill="none"
+                          height="100%"
+                          viewBox="0 0 20 20"
+                          width="100%"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            clip-rule="evenodd"
+                            d="M16 11h-5v5c0 .552-.448 1-1 1s-1-.448-1-1v-5H4c-.552 0-1-.448-1-1s.448-1 1-1h5V4c0-.552.448-1 1-1s1 .448 1 1v5h5c.552 0 1 .448 1 1s-.448 1-1 1z"
+                            fill="currentColor"
+                            fill-rule="evenodd"
+                            stroke="none"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    Добавить
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="root"
+            >
+              <div>
+                <button
+                  class="root s cancel-light"
+                  type="button"
+                >
+                  <span
+                    class="content"
+                  >
+                    <div
+                      class="icon"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 20 20"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M8 5C8.55228 5 9 5.44772 9 6C9 6.51284 8.61396 6.93551 8 7H6C4.34315 7 3 8.34315 3 10C3 11.5977 4.24892 12.9037 6 13H8C8.55228 13 9 13.4477 9 14C9 14.5128 8.61396 14.9355 8 15H6C3.23858 15 1 12.7614 1 10C1 7.31125 3.12231 5.11818 6 5H8ZM12 5C11.4477 5 11 5.44772 11 6C11 6.51284 11.386 6.93551 12 7H14C15.6569 7 17 8.34315 17 10C17 11.5977 15.7511 12.9037 14 13H12C11.4477 13 11 13.4477 11 14C11 14.5128 11.386 14.9355 12 15H14C16.7614 15 19 12.7614 19 10C19 7.31125 16.8777 5.11818 14 5H12ZM7 9C6.44772 9 6 9.44772 6 10C6 10.5523 6.44772 11 7 11H13C13.5523 11 14 10.5523 14 10C14 9.44772 13.5523 9 13 9H7Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    Скопировать ссылку
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="root"
+    >
+      <div
+        class="segments"
+      >
+        <button
+          class="tab"
+        >
+          Участники проекта
+          <div
+            class="count"
+          >
+            12
+          </div>
+        </button>
+        <button
+          class="activeTab"
+        >
+          Ожидают подтверждения
+          <div
+            class="count"
+          >
+            5
+          </div>
+        </button>
+      </div>
+      <div
+        class="content"
+      >
+        <div
+          class="tab"
+        >
+          <div
+            class="table root"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/6786871113358.jpg?d=identicon"
+                />
+                <div
+                  class="userName"
+                  title="Кент Кларк"
+                >
+                  Кент Кларк
+                </div>
+              </div>
+              <div
+                class="cell emailColumn"
+              >
+                <div
+                  class="email"
+                  title="kent.clark@metropolis.com"
+                >
+                  kent.clark@metropolis.com
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="actionsCell"
+                >
+                  <button
+                    class="root s cancel"
+                    type="button"
+                  >
+                    <span
+                      class="content"
+                    >
+                      Отклонить
+                    </span>
+                  </button>
+                  <button
+                    class="root s main"
+                    type="button"
+                  >
+                    <span
+                      class="content"
+                    >
+                      Принять
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/6786871113358.jpg?d=identicon"
+                />
+                <div
+                  class="userName"
+                  title="Кент Кларк"
+                >
+                  Кент Кларк
+                </div>
+              </div>
+              <div
+                class="cell emailColumn"
+              >
+                <div
+                  class="email"
+                  title="kent.clark@metropolis.com"
+                >
+                  kent.clark@metropolis.com
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="actionsCell"
+                >
+                  <button
+                    class="root s cancel"
+                    type="button"
+                  >
+                    <span
+                      class="content"
+                    >
+                      Отклонить
+                    </span>
+                  </button>
+                  <button
+                    class="root s main"
+                    type="button"
+                  >
+                    <span
+                      class="content"
+                    >
+                      Принять
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/6786871113358.jpg?d=identicon"
+                />
+                <div
+                  class="userName"
+                  title="Кент Кларк"
+                >
+                  Кент Кларк
+                </div>
+              </div>
+              <div
+                class="cell emailColumn"
+              >
+                <div
+                  class="email"
+                  title="kent.clark@metropolis.com"
+                >
+                  kent.clark@metropolis.com
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="actionsCell"
+                >
+                  <button
+                    class="root s cancel"
+                    type="button"
+                  >
+                    <span
+                      class="content"
+                    >
+                      Отклонить
+                    </span>
+                  </button>
+                  <button
+                    class="root s main"
+                    type="button"
+                  >
+                    <span
+                      class="content"
+                    >
+                      Принять
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/6786871113358.jpg?d=identicon"
+                />
+                <div
+                  class="userName"
+                  title="Кент Кларк"
+                >
+                  Кент Кларк
+                </div>
+              </div>
+              <div
+                class="cell emailColumn"
+              >
+                <div
+                  class="email"
+                  title="kent.clark@metropolis.com"
+                >
+                  kent.clark@metropolis.com
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="actionsCell"
+                >
+                  <button
+                    class="root s cancel"
+                    type="button"
+                  >
+                    <span
+                      class="content"
+                    >
+                      Отклонить
+                    </span>
+                  </button>
+                  <button
+                    class="root s main"
+                    type="button"
+                  >
+                    <span
+                      class="content"
+                    >
+                      Принять
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="cell nameColumn nameCell"
+              >
+                <img
+                  alt="user-avatar"
+                  class="imageAvatar"
+                  src="https://www.gravatar.com/avatar/6786871113358.jpg?d=identicon"
+                />
+                <div
+                  class="userName"
+                  title="Кент Кларк"
+                >
+                  Кент Кларк
+                </div>
+              </div>
+              <div
+                class="cell emailColumn"
+              >
+                <div
+                  class="email"
+                  title="kent.clark@metropolis.com"
+                >
+                  kent.clark@metropolis.com
+                </div>
+              </div>
+              <div
+                class="cell actionsColumn"
+              >
+                <div
+                  class="actionsCell"
+                >
+                  <button
+                    class="root s cancel"
+                    type="button"
+                  >
+                    <span
+                      class="content"
+                    >
+                      Отклонить
+                    </span>
+                  </button>
+                  <button
+                    class="root s main"
+                    type="button"
+                  >
+                    <span
+                      class="content"
+                    >
+                      Принять
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,1902 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagsTable корректно отрабатывает сценарии Рендер на мок данных групповой вид 1`] = `
+<div>
+  <div
+    class="root"
+  >
+    <div
+      class="filterContainer"
+    >
+      <div
+        class="taskFilter"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="inputWrapper"
+          >
+            <input
+              class="input"
+              data-testid="input-search"
+              type="text"
+              value=""
+            />
+            <span
+              class="label"
+            >
+              Имя группы
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="typeFilter"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="inputWrapper"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="inputWrapper disabled"
+              >
+                <input
+                  class="input withFloatingLabel"
+                  data-testid="select-type"
+                  disabled=""
+                  readonly=""
+                  type="text"
+                  value="Все"
+                />
+                <span
+                  class="label activeLabel floating"
+                >
+                  Тип
+                </span>
+              </div>
+            </div>
+            <div
+              class="arrow"
+            >
+              <div
+                class="root"
+              >
+                <svg
+                  fill="none"
+                  height="100%"
+                  viewBox="0 0 20 20"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10.0029 11.6053L5.71004 7.31242C5.31951 6.9219 4.68635 6.9219 4.29582 7.31242C3.9053 7.70295 3.9053 8.33611 4.29582 8.72664L9.29582 13.7266C9.68635 14.1172 10.3195 14.1172 10.71 13.7266L15.71 8.72664C16.1006 8.33611 16.1006 7.70295 15.71 7.31242C15.3195 6.9219 14.6863 6.9219 14.2958 7.31242L10.0029 11.6053Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    stroke="none"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="tagFilter"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="inputWrapper"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="inputWrapper disabled"
+              >
+                <input
+                  class="input withFloatingLabel"
+                  data-testid="select-tag"
+                  disabled=""
+                  readonly=""
+                  type="text"
+                  value="Все"
+                />
+                <span
+                  class="label activeLabel floating"
+                >
+                  Тэг
+                </span>
+              </div>
+            </div>
+            <div
+              class="arrow"
+            >
+              <div
+                class="root"
+              >
+                <svg
+                  fill="none"
+                  height="100%"
+                  viewBox="0 0 20 20"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10.0029 11.6053L5.71004 7.31242C5.31951 6.9219 4.68635 6.9219 4.29582 7.31242C3.9053 7.70295 3.9053 8.33611 4.29582 8.72664L9.29582 13.7266C9.68635 14.1172 10.3195 14.1172 10.71 13.7266L15.71 8.72664C16.1006 8.33611 16.1006 7.70295 15.71 7.31242C15.3195 6.9219 14.6863 6.9219 14.2958 7.31242L10.0029 11.6053Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    stroke="none"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <table
+      class="table"
+    >
+      <thead>
+        <tr
+          class="headRow"
+        >
+          <th
+            class="sprintHeader groupSort"
+          >
+            <div>
+              Спринт
+            </div>
+          </th>
+          <th
+            class="taskHeader groupSort"
+          >
+            <div>
+              Задача
+            </div>
+          </th>
+          <th
+            class="typeHeader groupSort"
+          >
+            <div>
+              Тип
+            </div>
+          </th>
+          <th
+            class="tagHeader groupSort"
+          >
+            <div>
+              Тэг
+            </div>
+          </th>
+          <th
+            class="flagStateHeader"
+          />
+          <th
+            class="actionHeader"
+          />
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="groupRowHeader"
+        >
+          <td
+            colspan="5"
+          >
+            <div
+              class="headerText"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <span
+                class="groupName"
+              >
+                Sprint 67
+              </span>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="groupRowHeader"
+        >
+          <td
+            colspan="5"
+          >
+            <div
+              class="headerText"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <span
+                class="groupName"
+              >
+                todo-1
+              </span>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="groupRowHeader"
+        >
+          <td
+            colspan="5"
+          >
+            <div
+              class="headerText"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <span
+                class="groupName"
+              >
+                Без группы
+              </span>
+            </div>
+          </td>
+          <td />
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`FlagsTable корректно отрабатывает сценарии Рендер на мок данных обычный вид 1`] = `
+<div>
+  <div
+    class="root"
+  >
+    <div
+      class="filterContainer"
+    >
+      <div
+        class="taskFilter"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="inputWrapper"
+          >
+            <input
+              class="input"
+              data-testid="input-search"
+              type="text"
+              value=""
+            />
+            <span
+              class="label"
+            >
+              Спринт, задача или название флага
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="typeFilter"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="inputWrapper"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="inputWrapper"
+              >
+                <input
+                  class="input withFloatingLabel"
+                  data-testid="select-type"
+                  readonly=""
+                  type="text"
+                  value="Все"
+                />
+                <span
+                  class="label activeLabel floating"
+                >
+                  Тип
+                </span>
+              </div>
+            </div>
+            <div
+              class="arrow"
+            >
+              <div
+                class="root"
+              >
+                <svg
+                  fill="none"
+                  height="100%"
+                  viewBox="0 0 20 20"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10.0029 11.6053L5.71004 7.31242C5.31951 6.9219 4.68635 6.9219 4.29582 7.31242C3.9053 7.70295 3.9053 8.33611 4.29582 8.72664L9.29582 13.7266C9.68635 14.1172 10.3195 14.1172 10.71 13.7266L15.71 8.72664C16.1006 8.33611 16.1006 7.70295 15.71 7.31242C15.3195 6.9219 14.6863 6.9219 14.2958 7.31242L10.0029 11.6053Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    stroke="none"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="tagFilter"
+      >
+        <div
+          class="root"
+        >
+          <div
+            class="inputWrapper"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="inputWrapper"
+              >
+                <input
+                  class="input withFloatingLabel"
+                  data-testid="select-tag"
+                  readonly=""
+                  type="text"
+                  value="Все"
+                />
+                <span
+                  class="label activeLabel floating"
+                >
+                  Тэг
+                </span>
+              </div>
+            </div>
+            <div
+              class="arrow"
+            >
+              <div
+                class="root"
+              >
+                <svg
+                  fill="none"
+                  height="100%"
+                  viewBox="0 0 20 20"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10.0029 11.6053L5.71004 7.31242C5.31951 6.9219 4.68635 6.9219 4.29582 7.31242C3.9053 7.70295 3.9053 8.33611 4.29582 8.72664L9.29582 13.7266C9.68635 14.1172 10.3195 14.1172 10.71 13.7266L15.71 8.72664C16.1006 8.33611 16.1006 7.70295 15.71 7.31242C15.3195 6.9219 14.6863 6.9219 14.2958 7.31242L10.0029 11.6053Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    stroke="none"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <table
+      class="table"
+    >
+      <thead>
+        <tr
+          class="headRow"
+        >
+          <th
+            class="sprintHeader"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="icon activeIcon"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M10 9h6v2h-6V9zm0 4h4v2h-4v-2zm0-8h8v2h-8V5zM6 7h2L5 4 2 7h2v9h2V7z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="activeText"
+              >
+                Спринт
+              </div>
+            </div>
+          </th>
+          <th
+            class="taskHeader"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="icon"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M10 9h6v2h-6V9zm0 4h4v2h-4v-2zm0-8h8v2h-8V5zm-4 8h2l-3 3-3-3h2V7H2l3-3 3 3H6v6z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class=""
+              >
+                Задача
+              </div>
+            </div>
+          </th>
+          <th
+            class="typeHeader"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="icon"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M10 9h6v2h-6V9zm0 4h4v2h-4v-2zm0-8h8v2h-8V5zm-4 8h2l-3 3-3-3h2V7H2l3-3 3 3H6v6z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class=""
+              >
+                Тип
+              </div>
+            </div>
+          </th>
+          <th
+            class="tagHeader"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="icon"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M10 9h6v2h-6V9zm0 4h4v2h-4v-2zm0-8h8v2h-8V5zm-4 8h2l-3 3-3-3h2V7H2l3-3 3 3H6v6z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class=""
+              >
+                Тэг
+              </div>
+            </div>
+          </th>
+          <th
+            class="flagStateHeader"
+          />
+          <th
+            class="actionHeader"
+          />
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="root rowWithAction"
+        >
+          <td>
+            <div
+              class="sprintCell"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                Sprint 21
+              </div>
+            </div>
+          </td>
+          <td
+            title="10"
+          >
+            <div
+              class="nameCell"
+            >
+              C Flag 01
+              <div
+                class="actionButton"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="tooltip"
+                  >
+                    <div
+                      class="roundedBody roundedBody"
+                    >
+                      Скопировать Feature Flag
+                    </div>
+                  </div>
+                  <button
+                    class="root cancel-light"
+                    type="button"
+                  >
+                    <div
+                      class="root"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 16 16"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M13 0C14.6569 0 16 1.34315 16 3V9C16 10.6569 14.6569 12 13 12H12V13C12 14.5977 10.7511 15.9037 9.17627 15.9949L9 16H3C1.40232 16 0.0963391 14.7511 0.00509262 13.1763L0 13V7C0 5.40232 1.24892 4.09634 2.82373 4.00509L3 4H4V3C4 1.40232 5.24892 0.0963391 6.82373 0.00509262L7 0H13ZM4 6H3C2.48716 6 2.06449 6.38604 2.00673 6.88338L2 7V13C2 13.5128 2.38604 13.9355 2.88338 13.9933L3 14H9C9.51284 14 9.93551 13.614 9.99327 13.1166L10 13V12H7C5.40232 12 4.09634 10.7511 4.00509 9.17627L4 9V6ZM6 9C6 9.55228 6.44772 10 7 10H13C13.5523 10 14 9.55228 14 9V3C14 2.44772 13.5523 2 13 2H7C6.44772 2 6 2.44772 6 3V9Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          stroke="none"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+          <td />
+          <td>
+            <div
+              class="root"
+            >
+              <div
+                class="item"
+              >
+                <div
+                  class="dot"
+                />
+                <div
+                  class="name"
+                >
+                  DEV
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="expandedRow"
+        >
+          <td
+            colspan="6"
+          />
+        </tr>
+        <tr
+          class="root rowWithAction"
+        >
+          <td>
+            <div
+              class="sprintCell"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                Sprint 10
+              </div>
+            </div>
+          </td>
+          <td
+            title="7"
+          >
+            <div
+              class="nameCell"
+            >
+              B Flag 22
+              <div
+                class="actionButton"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="tooltip"
+                  >
+                    <div
+                      class="roundedBody roundedBody"
+                    >
+                      Скопировать Feature Flag
+                    </div>
+                  </div>
+                  <button
+                    class="root cancel-light"
+                    type="button"
+                  >
+                    <div
+                      class="root"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 16 16"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M13 0C14.6569 0 16 1.34315 16 3V9C16 10.6569 14.6569 12 13 12H12V13C12 14.5977 10.7511 15.9037 9.17627 15.9949L9 16H3C1.40232 16 0.0963391 14.7511 0.00509262 13.1763L0 13V7C0 5.40232 1.24892 4.09634 2.82373 4.00509L3 4H4V3C4 1.40232 5.24892 0.0963391 6.82373 0.00509262L7 0H13ZM4 6H3C2.48716 6 2.06449 6.38604 2.00673 6.88338L2 7V13C2 13.5128 2.38604 13.9355 2.88338 13.9933L3 14H9C9.51284 14 9.93551 13.614 9.99327 13.1166L10 13V12H7C5.40232 12 4.09634 10.7511 4.00509 9.17627L4 9V6ZM6 9C6 9.55228 6.44772 10 7 10H13C13.5523 10 14 9.55228 14 9V3C14 2.44772 13.5523 2 13 2H7C6.44772 2 6 2.44772 6 3V9Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          stroke="none"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            Системный
+          </td>
+          <td />
+          <td>
+            <div
+              class="root"
+            >
+              <div
+                class="item"
+              >
+                <div
+                  class="dot"
+                />
+                <div
+                  class="name"
+                >
+                  DEV
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="expandedRow"
+        >
+          <td
+            colspan="6"
+          />
+        </tr>
+        <tr
+          class="root rowWithAction"
+        >
+          <td>
+            <div
+              class="sprintCell"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                Sprint 2
+              </div>
+            </div>
+          </td>
+          <td
+            title="3"
+          >
+            <div
+              class="nameCell"
+            >
+              A Flag 10
+              <div
+                class="actionButton"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="tooltip"
+                  >
+                    <div
+                      class="roundedBody roundedBody"
+                    >
+                      Скопировать Feature Flag
+                    </div>
+                  </div>
+                  <button
+                    class="root cancel-light"
+                    type="button"
+                  >
+                    <div
+                      class="root"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 16 16"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M13 0C14.6569 0 16 1.34315 16 3V9C16 10.6569 14.6569 12 13 12H12V13C12 14.5977 10.7511 15.9037 9.17627 15.9949L9 16H3C1.40232 16 0.0963391 14.7511 0.00509262 13.1763L0 13V7C0 5.40232 1.24892 4.09634 2.82373 4.00509L3 4H4V3C4 1.40232 5.24892 0.0963391 6.82373 0.00509262L7 0H13ZM4 6H3C2.48716 6 2.06449 6.38604 2.00673 6.88338L2 7V13C2 13.5128 2.38604 13.9355 2.88338 13.9933L3 14H9C9.51284 14 9.93551 13.614 9.99327 13.1166L10 13V12H7C5.40232 12 4.09634 10.7511 4.00509 9.17627L4 9V6ZM6 9C6 9.55228 6.44772 10 7 10H13C13.5523 10 14 9.55228 14 9V3C14 2.44772 13.5523 2 13 2H7C6.44772 2 6 2.44772 6 3V9Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          stroke="none"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            Релизный
+          </td>
+          <td>
+            WEB
+          </td>
+          <td>
+            <div
+              class="root"
+            >
+              <div
+                class="item"
+              >
+                <div
+                  class="dot"
+                />
+                <div
+                  class="name"
+                >
+                  DEV
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="expandedRow"
+        >
+          <td
+            colspan="6"
+          />
+        </tr>
+        <tr
+          class="root rowWithAction"
+        >
+          <td>
+            <div
+              class="sprintCell"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                Sprint 1
+              </div>
+            </div>
+          </td>
+          <td
+            title="1"
+          >
+            <div
+              class="nameCell"
+            >
+              A Flag 1
+              <div
+                class="actionButton"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="tooltip"
+                  >
+                    <div
+                      class="roundedBody roundedBody"
+                    >
+                      Скопировать Feature Flag
+                    </div>
+                  </div>
+                  <button
+                    class="root cancel-light"
+                    type="button"
+                  >
+                    <div
+                      class="root"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 16 16"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M13 0C14.6569 0 16 1.34315 16 3V9C16 10.6569 14.6569 12 13 12H12V13C12 14.5977 10.7511 15.9037 9.17627 15.9949L9 16H3C1.40232 16 0.0963391 14.7511 0.00509262 13.1763L0 13V7C0 5.40232 1.24892 4.09634 2.82373 4.00509L3 4H4V3C4 1.40232 5.24892 0.0963391 6.82373 0.00509262L7 0H13ZM4 6H3C2.48716 6 2.06449 6.38604 2.00673 6.88338L2 7V13C2 13.5128 2.38604 13.9355 2.88338 13.9933L3 14H9C9.51284 14 9.93551 13.614 9.99327 13.1166L10 13V12H7C5.40232 12 4.09634 10.7511 4.00509 9.17627L4 9V6ZM6 9C6 9.55228 6.44772 10 7 10H13C13.5523 10 14 9.55228 14 9V3C14 2.44772 13.5523 2 13 2H7C6.44772 2 6 2.44772 6 3V9Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          stroke="none"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            Релизный
+          </td>
+          <td />
+          <td>
+            <div
+              class="root"
+            >
+              <div
+                class="item"
+              >
+                <div
+                  class="dot"
+                />
+                <div
+                  class="name"
+                >
+                  PROD
+                </div>
+              </div>
+              <div
+                class="item"
+              >
+                <div
+                  class="dot dotEnabled"
+                />
+                <div
+                  class="name nameEnabled"
+                >
+                  DEV
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="expandedRow"
+        >
+          <td
+            colspan="6"
+          />
+        </tr>
+        <tr
+          class="root rowWithAction"
+        >
+          <td>
+            <div
+              class="sprintCell"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                Sprint 1
+              </div>
+            </div>
+          </td>
+          <td
+            title="4"
+          >
+            <div
+              class="nameCell"
+            >
+              B Flag
+              <div
+                class="actionButton"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="tooltip"
+                  >
+                    <div
+                      class="roundedBody roundedBody"
+                    >
+                      Скопировать Feature Flag
+                    </div>
+                  </div>
+                  <button
+                    class="root cancel-light"
+                    type="button"
+                  >
+                    <div
+                      class="root"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 16 16"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M13 0C14.6569 0 16 1.34315 16 3V9C16 10.6569 14.6569 12 13 12H12V13C12 14.5977 10.7511 15.9037 9.17627 15.9949L9 16H3C1.40232 16 0.0963391 14.7511 0.00509262 13.1763L0 13V7C0 5.40232 1.24892 4.09634 2.82373 4.00509L3 4H4V3C4 1.40232 5.24892 0.0963391 6.82373 0.00509262L7 0H13ZM4 6H3C2.48716 6 2.06449 6.38604 2.00673 6.88338L2 7V13C2 13.5128 2.38604 13.9355 2.88338 13.9933L3 14H9C9.51284 14 9.93551 13.614 9.99327 13.1166L10 13V12H7C5.40232 12 4.09634 10.7511 4.00509 9.17627L4 9V6ZM6 9C6 9.55228 6.44772 10 7 10H13C13.5523 10 14 9.55228 14 9V3C14 2.44772 13.5523 2 13 2H7C6.44772 2 6 2.44772 6 3V9Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          stroke="none"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+          <td>
+            eeee
+          </td>
+          <td>
+            <div
+              class="root"
+            >
+              <div
+                class="item"
+              >
+                <div
+                  class="dot"
+                />
+                <div
+                  class="name"
+                >
+                  DEV
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="expandedRow"
+        >
+          <td
+            colspan="6"
+          />
+        </tr>
+        <tr
+          class="root rowWithAction"
+        >
+          <td>
+            <div
+              class="sprintCell"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                Sprint 1
+              </div>
+            </div>
+          </td>
+          <td
+            title="5"
+          >
+            <div
+              class="nameCell"
+            >
+              B Flag 1
+              <div
+                class="actionButton"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="tooltip"
+                  >
+                    <div
+                      class="roundedBody roundedBody"
+                    >
+                      Скопировать Feature Flag
+                    </div>
+                  </div>
+                  <button
+                    class="root cancel-light"
+                    type="button"
+                  >
+                    <div
+                      class="root"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 16 16"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M13 0C14.6569 0 16 1.34315 16 3V9C16 10.6569 14.6569 12 13 12H12V13C12 14.5977 10.7511 15.9037 9.17627 15.9949L9 16H3C1.40232 16 0.0963391 14.7511 0.00509262 13.1763L0 13V7C0 5.40232 1.24892 4.09634 2.82373 4.00509L3 4H4V3C4 1.40232 5.24892 0.0963391 6.82373 0.00509262L7 0H13ZM4 6H3C2.48716 6 2.06449 6.38604 2.00673 6.88338L2 7V13C2 13.5128 2.38604 13.9355 2.88338 13.9933L3 14H9C9.51284 14 9.93551 13.614 9.99327 13.1166L10 13V12H7C5.40232 12 4.09634 10.7511 4.00509 9.17627L4 9V6ZM6 9C6 9.55228 6.44772 10 7 10H13C13.5523 10 14 9.55228 14 9V3C14 2.44772 13.5523 2 13 2H7C6.44772 2 6 2.44772 6 3V9Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          stroke="none"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+          <td>
+            JFE
+          </td>
+          <td>
+            <div
+              class="root"
+            >
+              <div
+                class="item"
+              >
+                <div
+                  class="dot"
+                />
+                <div
+                  class="name"
+                >
+                  DEV
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="expandedRow"
+        >
+          <td
+            colspan="6"
+          />
+        </tr>
+        <tr
+          class="root rowWithAction"
+        >
+          <td>
+            <div
+              class="sprintCell"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                Sprint 1
+              </div>
+            </div>
+          </td>
+          <td
+            title="8"
+          >
+            <div
+              class="nameCell"
+            >
+              C Flag 0
+              <div
+                class="actionButton"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="tooltip"
+                  >
+                    <div
+                      class="roundedBody roundedBody"
+                    >
+                      Скопировать Feature Flag
+                    </div>
+                  </div>
+                  <button
+                    class="root cancel-light"
+                    type="button"
+                  >
+                    <div
+                      class="root"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 16 16"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M13 0C14.6569 0 16 1.34315 16 3V9C16 10.6569 14.6569 12 13 12H12V13C12 14.5977 10.7511 15.9037 9.17627 15.9949L9 16H3C1.40232 16 0.0963391 14.7511 0.00509262 13.1763L0 13V7C0 5.40232 1.24892 4.09634 2.82373 4.00509L3 4H4V3C4 1.40232 5.24892 0.0963391 6.82373 0.00509262L7 0H13ZM4 6H3C2.48716 6 2.06449 6.38604 2.00673 6.88338L2 7V13C2 13.5128 2.38604 13.9355 2.88338 13.9933L3 14H9C9.51284 14 9.93551 13.614 9.99327 13.1166L10 13V12H7C5.40232 12 4.09634 10.7511 4.00509 9.17627L4 9V6ZM6 9C6 9.55228 6.44772 10 7 10H13C13.5523 10 14 9.55228 14 9V3C14 2.44772 13.5523 2 13 2H7C6.44772 2 6 2.44772 6 3V9Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          stroke="none"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+          <td />
+          <td>
+            <div
+              class="root"
+            >
+              <div
+                class="item"
+              >
+                <div
+                  class="dot"
+                />
+                <div
+                  class="name"
+                >
+                  DEV
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="expandedRow"
+        >
+          <td
+            colspan="6"
+          />
+        </tr>
+        <tr
+          class="root rowWithAction"
+        >
+          <td>
+            <div
+              class="sprintCell"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div>
+                Sprint 1
+              </div>
+            </div>
+          </td>
+          <td
+            title="11"
+          >
+            <div
+              class="nameCell"
+            >
+              C Flag 11
+              <div
+                class="actionButton"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="tooltip"
+                  >
+                    <div
+                      class="roundedBody roundedBody"
+                    >
+                      Скопировать Feature Flag
+                    </div>
+                  </div>
+                  <button
+                    class="root cancel-light"
+                    type="button"
+                  >
+                    <div
+                      class="root"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 16 16"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M13 0C14.6569 0 16 1.34315 16 3V9C16 10.6569 14.6569 12 13 12H12V13C12 14.5977 10.7511 15.9037 9.17627 15.9949L9 16H3C1.40232 16 0.0963391 14.7511 0.00509262 13.1763L0 13V7C0 5.40232 1.24892 4.09634 2.82373 4.00509L3 4H4V3C4 1.40232 5.24892 0.0963391 6.82373 0.00509262L7 0H13ZM4 6H3C2.48716 6 2.06449 6.38604 2.00673 6.88338L2 7V13C2 13.5128 2.38604 13.9355 2.88338 13.9933L3 14H9C9.51284 14 9.93551 13.614 9.99327 13.1166L10 13V12H7C5.40232 12 4.09634 10.7511 4.00509 9.17627L4 9V6ZM6 9C6 9.55228 6.44772 10 7 10H13C13.5523 10 14 9.55228 14 9V3C14 2.44772 13.5523 2 13 2H7C6.44772 2 6 2.44772 6 3V9Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          stroke="none"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            Релизный
+          </td>
+          <td />
+          <td>
+            <div
+              class="root"
+            >
+              <div
+                class="item"
+              >
+                <div
+                  class="dot"
+                />
+                <div
+                  class="name"
+                >
+                  DEV
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="expandedRow"
+        >
+          <td
+            colspan="6"
+          />
+        </tr>
+        <tr
+          class="root rowWithAction"
+        >
+          <td>
+            <div
+              class="sprintCell"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div />
+            </div>
+          </td>
+          <td
+            title="2"
+          >
+            <div
+              class="nameCell"
+            >
+              A Flag 2
+              <div
+                class="actionButton"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="tooltip"
+                  >
+                    <div
+                      class="roundedBody roundedBody"
+                    >
+                      Скопировать Feature Flag
+                    </div>
+                  </div>
+                  <button
+                    class="root cancel-light"
+                    type="button"
+                  >
+                    <div
+                      class="root"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 16 16"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M13 0C14.6569 0 16 1.34315 16 3V9C16 10.6569 14.6569 12 13 12H12V13C12 14.5977 10.7511 15.9037 9.17627 15.9949L9 16H3C1.40232 16 0.0963391 14.7511 0.00509262 13.1763L0 13V7C0 5.40232 1.24892 4.09634 2.82373 4.00509L3 4H4V3C4 1.40232 5.24892 0.0963391 6.82373 0.00509262L7 0H13ZM4 6H3C2.48716 6 2.06449 6.38604 2.00673 6.88338L2 7V13C2 13.5128 2.38604 13.9355 2.88338 13.9933L3 14H9C9.51284 14 9.93551 13.614 9.99327 13.1166L10 13V12H7C5.40232 12 4.09634 10.7511 4.00509 9.17627L4 9V6ZM6 9C6 9.55228 6.44772 10 7 10H13C13.5523 10 14 9.55228 14 9V3C14 2.44772 13.5523 2 13 2H7C6.44772 2 6 2.44772 6 3V9Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          stroke="none"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+          <td />
+          <td>
+            <div
+              class="root"
+            >
+              <div
+                class="item"
+              >
+                <div
+                  class="dot"
+                />
+                <div
+                  class="name"
+                >
+                  DEV
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="expandedRow"
+        >
+          <td
+            colspan="6"
+          />
+        </tr>
+        <tr
+          class="root rowWithAction"
+        >
+          <td>
+            <div
+              class="sprintCell"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div />
+            </div>
+          </td>
+          <td
+            title="6"
+          >
+            <div
+              class="nameCell"
+            >
+              B Flag 2
+              <div
+                class="actionButton"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="tooltip"
+                  >
+                    <div
+                      class="roundedBody roundedBody"
+                    >
+                      Скопировать Feature Flag
+                    </div>
+                  </div>
+                  <button
+                    class="root cancel-light"
+                    type="button"
+                  >
+                    <div
+                      class="root"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 16 16"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M13 0C14.6569 0 16 1.34315 16 3V9C16 10.6569 14.6569 12 13 12H12V13C12 14.5977 10.7511 15.9037 9.17627 15.9949L9 16H3C1.40232 16 0.0963391 14.7511 0.00509262 13.1763L0 13V7C0 5.40232 1.24892 4.09634 2.82373 4.00509L3 4H4V3C4 1.40232 5.24892 0.0963391 6.82373 0.00509262L7 0H13ZM4 6H3C2.48716 6 2.06449 6.38604 2.00673 6.88338L2 7V13C2 13.5128 2.38604 13.9355 2.88338 13.9933L3 14H9C9.51284 14 9.93551 13.614 9.99327 13.1166L10 13V12H7C5.40232 12 4.09634 10.7511 4.00509 9.17627L4 9V6ZM6 9C6 9.55228 6.44772 10 7 10H13C13.5523 10 14 9.55228 14 9V3C14 2.44772 13.5523 2 13 2H7C6.44772 2 6 2.44772 6 3V9Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          stroke="none"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+          <td>
+            Web
+          </td>
+          <td>
+            <div
+              class="root"
+            >
+              <div
+                class="item"
+              >
+                <div
+                  class="dot"
+                />
+                <div
+                  class="name"
+                >
+                  DEV
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="expandedRow"
+        >
+          <td
+            colspan="6"
+          />
+        </tr>
+        <tr
+          class="root rowWithAction"
+        >
+          <td>
+            <div
+              class="sprintCell"
+            >
+              <div
+                class="arrow"
+              >
+                <div
+                  class="root"
+                >
+                  <svg
+                    fill="none"
+                    height="100%"
+                    viewBox="0 0 20 20"
+                    width="100%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M11.5858 10L7.29289 5.70711C6.90237 5.31658 6.90237 4.68342 7.29289 4.29289C7.68342 3.90237 8.31658 3.90237 8.70711 4.29289L13.7071 9.29289C14.0976 9.68342 14.0976 10.3166 13.7071 10.7071L8.70711 15.7071C8.31658 16.0976 7.68342 16.0976 7.29289 15.7071C6.90237 15.3166 6.90237 14.6834 7.29289 14.2929L11.5858 10Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div />
+            </div>
+          </td>
+          <td
+            title="9"
+          >
+            <div
+              class="nameCell"
+            >
+              C Flag 1
+              <div
+                class="actionButton"
+              >
+                <div
+                  class="root"
+                >
+                  <div
+                    class="tooltip"
+                  >
+                    <div
+                      class="roundedBody roundedBody"
+                    >
+                      Скопировать Feature Flag
+                    </div>
+                  </div>
+                  <button
+                    class="root cancel-light"
+                    type="button"
+                  >
+                    <div
+                      class="root"
+                    >
+                      <svg
+                        fill="none"
+                        height="100%"
+                        viewBox="0 0 16 16"
+                        width="100%"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M13 0C14.6569 0 16 1.34315 16 3V9C16 10.6569 14.6569 12 13 12H12V13C12 14.5977 10.7511 15.9037 9.17627 15.9949L9 16H3C1.40232 16 0.0963391 14.7511 0.00509262 13.1763L0 13V7C0 5.40232 1.24892 4.09634 2.82373 4.00509L3 4H4V3C4 1.40232 5.24892 0.0963391 6.82373 0.00509262L7 0H13ZM4 6H3C2.48716 6 2.06449 6.38604 2.00673 6.88338L2 7V13C2 13.5128 2.38604 13.9355 2.88338 13.9933L3 14H9C9.51284 14 9.93551 13.614 9.99327 13.1166L10 13V12H7C5.40232 12 4.09634 10.7511 4.00509 9.17627L4 9V6ZM6 9C6 9.55228 6.44772 10 7 10H13C13.5523 10 14 9.55228 14 9V3C14 2.44772 13.5523 2 13 2H7C6.44772 2 6 2.44772 6 3V9Z"
+                          fill="currentColor"
+                          fill-rule="evenodd"
+                          stroke="none"
+                        />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+          <td />
+          <td>
+            <div
+              class="root"
+            >
+              <div
+                class="item"
+              >
+                <div
+                  class="dot"
+                />
+                <div
+                  class="name"
+                >
+                  DEV
+                </div>
+              </div>
+            </div>
+          </td>
+          <td />
+        </tr>
+        <tr
+          class="expandedRow"
+        >
+          <td
+            colspan="6"
+          />
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

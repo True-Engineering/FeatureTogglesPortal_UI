@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectPendingList рендерится Рендер на мок данных 1`] = `
+<div>
+  <div
+    class="table root"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="cell nameColumn nameCell"
+      >
+        <img
+          alt="user-avatar"
+          class="imageAvatar"
+          src="https://www.gravatar.com/avatar/6786871113358.jpg?d=identicon"
+        />
+        <div
+          class="userName"
+          title="Кент Кларк"
+        >
+          Кент Кларк
+        </div>
+      </div>
+      <div
+        class="cell emailColumn"
+      >
+        <div
+          class="email"
+          title="kent.clark@metropolis.com"
+        >
+          kent.clark@metropolis.com
+        </div>
+      </div>
+      <div
+        class="cell actionsColumn"
+      >
+        <div
+          class="actionsCell"
+        >
+          <button
+            class="root s cancel"
+            type="button"
+          >
+            <span
+              class="content"
+            >
+              Отклонить
+            </span>
+          </button>
+          <button
+            class="root s main"
+            type="button"
+          >
+            <span
+              class="content"
+            >
+              Принять
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell nameColumn nameCell"
+      >
+        <img
+          alt="user-avatar"
+          class="imageAvatar"
+          src="https://www.gravatar.com/avatar/6786871113358.jpg?d=identicon"
+        />
+        <div
+          class="userName"
+          title="Кент Кларк"
+        >
+          Кент Кларк
+        </div>
+      </div>
+      <div
+        class="cell emailColumn"
+      >
+        <div
+          class="email"
+          title="kent.clark@metropolis.com"
+        >
+          kent.clark@metropolis.com
+        </div>
+      </div>
+      <div
+        class="cell actionsColumn"
+      >
+        <div
+          class="actionsCell"
+        >
+          <button
+            class="root s cancel"
+            type="button"
+          >
+            <span
+              class="content"
+            >
+              Отклонить
+            </span>
+          </button>
+          <button
+            class="root s main"
+            type="button"
+          >
+            <span
+              class="content"
+            >
+              Принять
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell nameColumn nameCell"
+      >
+        <img
+          alt="user-avatar"
+          class="imageAvatar"
+          src="https://www.gravatar.com/avatar/6786871113358.jpg?d=identicon"
+        />
+        <div
+          class="userName"
+          title="Кент Кларк"
+        >
+          Кент Кларк
+        </div>
+      </div>
+      <div
+        class="cell emailColumn"
+      >
+        <div
+          class="email"
+          title="kent.clark@metropolis.com"
+        >
+          kent.clark@metropolis.com
+        </div>
+      </div>
+      <div
+        class="cell actionsColumn"
+      >
+        <div
+          class="actionsCell"
+        >
+          <button
+            class="root s cancel"
+            type="button"
+          >
+            <span
+              class="content"
+            >
+              Отклонить
+            </span>
+          </button>
+          <button
+            class="root s main"
+            type="button"
+          >
+            <span
+              class="content"
+            >
+              Принять
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell nameColumn nameCell"
+      >
+        <img
+          alt="user-avatar"
+          class="imageAvatar"
+          src="https://www.gravatar.com/avatar/6786871113358.jpg?d=identicon"
+        />
+        <div
+          class="userName"
+          title="Кент Кларк"
+        >
+          Кент Кларк
+        </div>
+      </div>
+      <div
+        class="cell emailColumn"
+      >
+        <div
+          class="email"
+          title="kent.clark@metropolis.com"
+        >
+          kent.clark@metropolis.com
+        </div>
+      </div>
+      <div
+        class="cell actionsColumn"
+      >
+        <div
+          class="actionsCell"
+        >
+          <button
+            class="root s cancel"
+            type="button"
+          >
+            <span
+              class="content"
+            >
+              Отклонить
+            </span>
+          </button>
+          <button
+            class="root s main"
+            type="button"
+          >
+            <span
+              class="content"
+            >
+              Принять
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="cell nameColumn nameCell"
+      >
+        <img
+          alt="user-avatar"
+          class="imageAvatar"
+          src="https://www.gravatar.com/avatar/6786871113358.jpg?d=identicon"
+        />
+        <div
+          class="userName"
+          title="Кент Кларк"
+        >
+          Кент Кларк
+        </div>
+      </div>
+      <div
+        class="cell emailColumn"
+      >
+        <div
+          class="email"
+          title="kent.clark@metropolis.com"
+        >
+          kent.clark@metropolis.com
+        </div>
+      </div>
+      <div
+        class="cell actionsColumn"
+      >
+        <div
+          class="actionsCell"
+        >
+          <button
+            class="root s cancel"
+            type="button"
+          >
+            <span
+              class="content"
+            >
+              Отклонить
+            </span>
+          </button>
+          <button
+            class="root s main"
+            type="button"
+          >
+            <span
+              class="content"
+            >
+              Принять
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
